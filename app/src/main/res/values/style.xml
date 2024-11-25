@@ -1,0 +1,17 @@
+<resources>
+
+    <style name="Widget.StoryAppAwal.AppWidget.Container" parent="android:Widget">
+        <item name="android:id">@android:id/background</item>
+        <item name="android:background">?android:attr/colorBackground</item>
+    </style>
+
+    <style name="Widget.StoryAppAwal.AppWidget.InnerView" parent="android:Widget">
+        <item name="android:background">?android:attr/colorBackground</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="ThemeOverlay.ActionBar" parent="">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:colorControlNormal">@android:color/white</item>
+    </style>
+</resources>

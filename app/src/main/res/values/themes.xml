@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.StoryAppAwal" parent="Theme.Material3.DayNight">
+        <item name="android:backgroundTint">@color/white</item>
+
+        <item name="colorContainer">@color/purple_1</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.ActionBar</item>
+    </style>
+
+    <style name="Base.Theme.StoryAppAwal.Landing." parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/purple_1</item>
+    </style>
+
+    <style name="Theme.StoryAppAwal" parent="Base.Theme.StoryAppAwal" />
+
+    <style name="Theme.StoryAppAwal.AppWidgetContainerParent" parent="@android:style/Theme.DeviceDefault">
+        <item name="appWidgetRadius">16dp</item>
+        <item name="appWidgetInnerRadius">12dp</item>
+    </style>
+
+    <style name="Theme.StoryAppAwal.AppWidgetContainer" parent="Theme.StoryAppAwal.AppWidgetContainerParent">
+        <item name="appWidgetPadding">16dp</item>
+    </style>
+</resources>
